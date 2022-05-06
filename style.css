@@ -3,16 +3,18 @@ ul {
     padding: .5rem;
 }
 
-.site-title {
+ul li {
     display: inline-block;
-    font-size: 1.2rem;
     color: #C4C4C4;
+}
+
+.site-title {
+    font-size: 1.2rem;
     padding-left: .5rem;
     padding-right: .5rem;
 }
 
 .menu-box-1 {
-    display: inline-flex;
     color: rgb(80, 80, 80);
     background-color: #D4D4D4;
     padding: .5rem 2rem .5rem 2rem;
@@ -22,8 +24,6 @@ ul {
 }
 
 .menu-box-2 {
-    display: inline-block;
-    color: #C4C4C4;
     padding-left: .5rem;
 }
 
@@ -74,15 +74,15 @@ hr {
 }
 
 .form-input-1,
-.form-input-3 {
-    border: 1.8px solid black;
-}
-
-.form-input-1,
 .form-input-2,
 .form-input-3 {
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
+
+.form-input-1,
+.form-input-3 {
+    border: 1.8px solid black;
 }
 
 .form-input-3 {
